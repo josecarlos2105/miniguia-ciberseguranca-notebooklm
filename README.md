@@ -17,23 +17,34 @@ Ferramenta utilizada para:
 ### 💻 Exemplo:
 ```bash
 nmap -sS -p 80,443 192.168.0.1
-🧱 Firewall (Linux)
+```
+
+
+## 🧱 Firewall (Linux)
 
 Responsável por controlar o tráfego de rede.
 
 Exemplo com iptables:
 
 iptables -A INPUT -p tcp --dport 22 -j ACCEPT
-📘 Glossário
+
+
+## 📘 Glossário
+
 Porta: canal de comunicação de rede
 Firewall: sistema de filtragem de tráfego
 Vulnerabilidade: falha explorável
 Scan: processo de varredura
-♻️ Prompts Reutilizáveis
+
+
+## ♻️ Prompts Reutilizáveis
+
 "Explique [conceito] de forma simples e depois de forma técnica"
 "Liste exemplos práticos de [tema]"
 "Quais erros comuns em [assunto]?"
 "Explique como aplicar [conceito] em ambiente real"
-🏁 Conclusão
+
+
+## 🏁 Conclusão
 
 Este projeto demonstrou como a Inteligência Artificial pode ser utilizada como ferramenta de apoio no aprendizado técnico, reforçando a importância da engenharia de prompts e da curadoria de conteúdo.
