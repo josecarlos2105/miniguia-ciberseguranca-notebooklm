@@ -1,19 +1,21 @@
-📖 Miniguia de Estudo
-🧾 Resumo Estruturado
-🔐 Cibersegurança
+# 📘 Miniguia de Estudo
 
-Cibersegurança é o conjunto de práticas voltadas para proteger sistemas, redes e dados contra ataques digitais.
+## 🔐 Resumo Estruturado – Cibersegurança
 
-🌐 Nmap
+Cibersegurança é o conjunto de práticas externas para proteger sistemas, redes e dados contra ataques digitais.
+
+---
+
+## 🌐 Nmap
 
 Ferramenta utilizada para:
 
-Descoberta de hosts
-Varredura de portas
-Identificação de serviços
+- Descoberta de hosts  
+- Varredura de portas  
+- Identificação de serviços  
 
-Exemplo:
-
+### 💻 Exemplo:
+```bash
 nmap -sS -p 80,443 192.168.0.1
 🧱 Firewall (Linux)
 
